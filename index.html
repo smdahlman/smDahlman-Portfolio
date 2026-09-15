@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <section class="logotype-wrapper">
+            <section class="logotype-h1">
+                <span class="logotype" aria-hidden="true"></span>
+                <h1>Tidningsnamn</h1>
+            </section>
+            <form action="#" id="search" class="search"><input type="search" placeholder="sök"
+                    aria-label="Sök på webbplatsen" />
+                <span class="search-icon">🔍</span>
+            </form>
+        </section>
+        <hr>
+        <nav>
+            <input type="checkbox" id="menu" class="menu" aria-label="Öppna meny" />
+            <label for="menu" class="hamburger-container">
+                <button class="hamburger">
+                    <span class="hamburgerline"></span>
+                    <span class="hamburgerline"></span>
+                    <span class="hamburgerline"></span>
+                </button>
+                <p>Meny</p>
+            </label>
+            <ul class="menu-text">
+                <li><a href="#">Hem</a></li>
+                <li><a href="#">Senaste nytt</a></li>
+                <li><a href="#">Arkiv</a></li>
+                <li><a href="#">Kontakta oss</a></li>
+            </ul>
+        </nav>
+        <hr>
+    </header>
+    <main>
+        <section class="article-section">
+            <article class="article">
+                <figure><img class="img" src="kaffe.jpg" alt="bildtext">
+                    <h2>Huvudartikelns titel</h2>
+                    <figcaption>byline</figcaption>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, fugit eveniet, dolor praesentium
+                        quod
+                        impedit dicta nihil quis voluptatibus expedita alias rerum? Expedita neque officiis facere
+                        itaque
+                        quidem, ducimus veritatis?</p>
+                    <blockquote>"Apple pie pie cupcake dessert lollipop icing toffee soufflé. Bonbon ice cream
+                        marshmallow
+                        sesame snaps chupa chups lemon drops".</blockquote> <button>Läs mer</button>
+                </figure>
+            </article>
+            <article class="article">
+                <figure><img class="img" src="macarons-bild.jpg" alt="">
+                    <h2>Andra artikelns namn</h2>
+                    <figcaption>byline</figcaption>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime excepturi obcaecati eveniet
+                        quis eos sequi vero? Alias doloremque asperiores corporis quae, a vitae impedit mollitia,
+                        dolores
+                        deserunt blanditiis rerum eum.</p> <button>Läs mer</button>
+                </figure>
+
+            </article>
+            <article class="article">
+                <figure><img class="img" src="wienerbröd.jpg" alt="bildtext">
+                    <h2>Tredje artikelns namn</h2>
+                    <figcaption>byline</figcaption>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, officiis. Dolorem perferendis
+                        nemo
+                        necessitatibus dolores cupiditate eveniet tempore deserunt qui ea. Architecto est doloremque
+                        adipisci,
+                        aut perferendis suscipit molestiae ratione?</p> <button>Läs mer</button>
+
+                    <hr>
+                    <h3>Tipsa redaktionen</h3>
+                    <form>
+                        <div class="form-row">
+                            <label for="name">Ditt namn</label>
+                            <input class="form-input" type="text" id="name">
+                        </div>
+                        <div class="form-row">
+                            <label for="email">Din e-post</label>
+                            <input class="form-input" type="email" id="email">
+                        </div>
+
+                        <div class="form-row">
+                            <label for="tel">Din telefon</label>
+                            <input class="form-input" type="tel" id="tel">
+                        </div>
+                        <div class="form-row">
+                            <label for="subject">Välj ämne</label>
+                            <select class="form-input" name="subject" id="subject">
+                                <option label="                  "></option>
+                            </select>
+                        </div>
+                        <div class="form-row">
+                            <label for="Meddelande">Meddelande</label>
+                            <textarea class="form-input" id="Meddelande"></textarea>
+                        </div>
+
+                        <div class="form-row">
+                            <label for="kontakta">Kontakta mig</label>
+                            <input class="form-input" type="checkbox" id="kontakta">
+                        </div>
+                        <div class="form-row">
+                            <button>Skicka</button><br />
+                        </div>
+
+                        <div>
+                            <select name="GDPR" id="GDPR">
+                                <option value="GDPR och villkor">GDPR och villkor</option>
+                            </select>
+                        </div>
+                    </form>
+                </figure>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <address>
+            <p>Företagsnamn</p>
+            <p>Adress</p>
+            <p>Telefon</p>
+            <p>E-post</p>
+        </address>
+        <nav aria-label="Sitemap och om oss">
+            <p>Sitemap</p>
+            <p>Om oss</p>
+        </nav>
+        <nav aria-label="Sociala medier">
+            <p>Sociala medier</p>
+        </nav>
+    </footer>
+
+</body>
+
+
+</html>
