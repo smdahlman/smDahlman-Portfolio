@@ -4,7 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="description" content="Tidningssida om macarons">
+    <title>Tidningssida</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -49,7 +50,8 @@
         <div class="article-section">
             <article class="article">
                 <h2>Huvudartikelns titel</h2>
-                <figure><img class="img" src="Macarons-bild.jpg" alt="bildtext">
+                <figure><img class="img" src="Macarons-bild.jpg" alt="bil på macarons" width="1200" height="800"
+                        fetchpriority="high">
                     <figcaption>byline</figcaption>
                 </figure>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, fugit eveniet, dolor praesentium
@@ -64,7 +66,8 @@
             </article>
             <article class="article">
                 <h2>Andra artikelns namn</h2>
-                <figure><img class="img" src="Macarons-bild.jpg" alt="Bild på macarons">
+                <figure><img class="img" src="Macarons-bild.jpg" alt="bild på macarons" width="1200" height="800"
+                        fetchpriority="high">
                     <figcaption>byline</figcaption>
                 </figure>
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime excepturi obcaecati eveniet
@@ -74,7 +77,8 @@
             </article>
             <article class="article">
                 <h2>Tredje artikelns namn</h2>
-                <figure><img class="img" src="Macarons-bild.jpg" alt="bildtext">
+                <figure><img class="img" src="Macarons-bild.jpg" alt="bild på macarons" width="1200" height="800"
+                        fetchpriority="high">
                     <figcaption>byline</figcaption>
                 </figure>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, officiis. Dolorem perferendis
@@ -99,7 +103,8 @@
                     <div class="form-row">
                         <label for="subject">Välj ämne</label>
                         <select class="form-input" name="subject" id="subject">
-                            <option label="                  "></option>
+                            <option label=""></option>
+                            <option value="fraga">Allmän fråga</option>
                         </select>
                     </div>
                     <div class="form-row">
@@ -114,7 +119,7 @@
                         <button>Skicka</button>
                     </div>
                     <div>
-                        <select name="GDPR" id="GDPR">
+                        <select name="GDPR" id="GDPR" aria-label="Godkännande av GDPR och villkor">
                             <option value="GDPR och villkor">GDPR och villkor</option>
                         </select>
                     </div>
